@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.leaf{
+    width: min(21.5rem, 100%);
+}
+
+.odin{
+    width: 100%;
+    position: relative;
+    right: 75px;
+    top: 5px;
+}
+
+.odin.right{
+    font-family: norse;
+    font-size: 3rem;
+}
+
+.logo{
+    background: rgba(0, 0, 0, 0.526);
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    left: 0rem;
+    padding: 0 5rem 0.4em 13rem;
+    top: 26.5%;
+}
+
+
+body{
+    display: flex;
+}
+
+main{
+    width: 100vw;
+}
+
+.top{
+    background: #E6E6E6;
+    padding: 3em 3em 1.5em 1em;
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+form{
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 4rem;
+}
+
+.container{
+    display: flex;
+    gap: 3rem;
+    margin-left: 2rem;
+    position: relative;
+    top: 2rem;
+}
+
+h2{
+    margin-left: 2rem;
+    position: relative;
+    top: 1rem;
+}
+
+.column.one, .column.two{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+input{
+    border:solid thin #E5E7EB;
+    padding: 2px;
+    
+}
+
+input:focus{
+    border: 1px solid  blue;
+    box-shadow: 0 0 3px #1670BE;
+    outline-offset: 0px;
+    outline: none;
+}
+
+input:invalid{
+    border: 1px solid  red;
+    box-shadow: 0 0 3px #c7363e;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.column.three{
+    padding-bottom: 10em;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    padding: 10px 3.5em 10px 3.5em;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+}
+
+span{
+    color: #596D48;
+}
+
+.smallC{
+    margin-left: 2rem;
+    position: relative;
+    top: 2rem;
+}
+
+.caption{
+    font-size: 10px;
+    position: absolute;
+    display: inline-block;
+    top: 31rem;
+    left: 7rem;
+}
